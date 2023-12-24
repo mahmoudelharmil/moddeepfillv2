@@ -2,9 +2,9 @@ import torch
 
 # GENERIC
 GPU_DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-INIMAGE = "./input/input_img.png"
+INIMAGE = "./input/imgs/img.jpg"
 MASKIMAGE = "./input/mask.png"
-OUTIMAGE = "./output/inpainted_img.png"
+OUTIMAGE = "./output/imgs/img.jpg"
 RESIZE_TO = (512, 512)
 CUDA = True if torch.cuda.is_available() else False
 
